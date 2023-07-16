@@ -1,4 +1,6 @@
-public class WypisywanieNaEkran
+package Sekcja_2_Podstawy;
+
+public class Wypisywanie_na_ekran
 {
     public static void main (String[] args)
     {

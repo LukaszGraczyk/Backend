@@ -1,4 +1,6 @@
-public class DrugaKlasa
+package Sekcja_2_Podstawy;
+
+public class Środowisko_programistyczne
 {
     public static void main(String[] args)
     {

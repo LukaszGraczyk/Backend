@@ -1,4 +1,6 @@
-public class PierwszyProgram
+package Sekcja_2_Podstawy;
+
+public class Pierwszy_program_Witaj_Swiecie
 {
     public static void main(String[] args)
     {
