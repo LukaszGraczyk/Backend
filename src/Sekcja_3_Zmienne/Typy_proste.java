@@ -29,7 +29,7 @@ public class Typy_proste
 
         // Liczby zmiennoprzecinkowe
 
-        float zmiennaFloat = 12.344444444444F; // Trzeba dopisywać na końcu literkę "F" // Miniejsza precyzja niż double
+        float zmiennaFloat = 12.344444444444f; // Trzeba dopisywać na końcu literkę "f" // Miniejsza precyzja niż double
         System.out.println("Float: " + zmiennaFloat); // Float jest rozmiaru 32-bitowego
 
         double zmiennaDouble = 12.344444444444; // Większa precyzja niż float

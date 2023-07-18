@@ -1,6 +1,6 @@
 package Sekcja_2_Podstawy;
 
-public class Środowisko_programistyczne
+public class Srodowisko_programistyczne
 {
     public static void main(String[] args)
     {
