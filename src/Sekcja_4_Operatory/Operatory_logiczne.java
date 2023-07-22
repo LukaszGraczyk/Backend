@@ -1,4 +1,4 @@
-package Operatory;
+package Sekcja_4_Operatory;
 
 public class Operatory_logiczne
 {
