@@ -5,6 +5,7 @@ public class Zadanie_1
     public static void main(String[] args)
     {
         /*
+        Zadanie 1:
         Uzupełnij tablicę typu int rozmiaru 5 dowolnymi wartościami. Następnie zsumuj wszystkie elementy tej tablicy
         i wynik wypisz na ekran. Sumowania dokonaj poprzez dodawanie elementów odwołując się do indeksów tablicy.
          */
