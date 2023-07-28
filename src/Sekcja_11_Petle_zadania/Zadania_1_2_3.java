@@ -20,9 +20,17 @@ public class Zadania_1_2_3
 
         System.out.println();
 
-        int a; int b = 23;
+        for(int i = 0 ; i <= 30 ; i++)
+            if(i % 2 == 0)
+            {
+                System.out.print(i + " ");
+            }
 
-        for(a = 8 ; a <= b ; a++)
-            System.out.print(a + " ");
+        System.out.println();
+
+        int a = 9; int b = 23;
+
+        for(int krok = a ; krok <= b ; krok++)
+            System.out.print(krok + " ");
     }
 }
