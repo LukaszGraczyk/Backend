@@ -15,5 +15,7 @@ public class Metody
 
         double wynikKolejnejMetody = nazwaObiektu.dodajCosPoPrzecinku(1.20); // 4
         System.out.println("Wynik dodania czegoś po przecinku: " + wynikKolejnejMetody);
+
+        nazwaObiektu.metodaKolejna(); // 5
     }
 }

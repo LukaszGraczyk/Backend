@@ -25,4 +25,10 @@ public class KlasaDlaMetod
         double wynik = liczbaDouble + 0.55;            // Zmienna wynik jest widoczna tylko w obrębie nawiasów metody
         return wynik;                                  // Może powtarzać się nazewnictwo zmiennych w kolejnych metodach
     }
+
+    int metodaKolejna() // Elemet zwracany przez metodę musi być tego samego typu co metoda np. int // 5
+    {
+        System.out.println("Tekst");
+        return 100;
+    }
 }
