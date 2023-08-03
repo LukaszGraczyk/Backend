@@ -4,6 +4,13 @@ public class MainPackage
 {
     public static void main(String[] args)
     {
+        // Struktura package'ów w firmach przeważnie
+
+        // nazwa_aplikacji
+        // nazwa_domeny.com
+        // nazwa_aplikacji.nazwa_domeny.com
+        // com.nazwa_domeny.nazwa_aplikacji
+
 
     }
 }
