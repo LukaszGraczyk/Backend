@@ -1,6 +1,6 @@
 package Sekcja_15_Klasy_kontynuacja.com.modyfikatory_dostepu.app.jeden;
 
-public class KlasaAA
+public class KlasaAA // Jeżeli dla klasy nie użyjemy modyfikatora public to będzie dostępna tylko w tym samym package'u
 {
     // Różne typy modyfikatorów dla pól
     public int polePubliczne; // Dostępne wszędzie
