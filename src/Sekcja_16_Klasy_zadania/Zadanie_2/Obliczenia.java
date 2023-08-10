@@ -49,5 +49,31 @@ public class Obliczenia
     {
         return suma() / tablica.length;
     }
+
+    int min()
+    {
+        int min = Integer.MAX_VALUE;
+        for(int i = 0 ; i < tablica.length ; i++)
+        {
+            if(tablica[i] < min)
+            {
+                min = tablica[i];
+            }
+        }
+        return min;
+    }
+
+    int max()
+    {
+        int max = Integer.MIN_VALUE;
+        for(int i = 0 ; i < tablica.length ; i++)
+        {
+            if(tablica[i] > max)
+            {
+                max = tablica[i];
+            }
+        }
+        return max;
+    }
     
 }
