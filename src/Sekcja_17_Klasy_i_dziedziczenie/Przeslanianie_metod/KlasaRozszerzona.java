@@ -10,4 +10,5 @@ public class KlasaRozszerzona extends KlasaPodstawowa
 }
 
 // Jeżeli wywołalibyśmy obiekt z klasy rozszerzonej z metodą o takiej samej nazwie jak metoda z klasy podstawowej
-// ale bez przesłonięcia @Override to zadziałałaby metoda z klasy podstawowej
+// ale bez przesłonięcia @Override to również zadziałałaby metoda z klasy rozszerzonej
+// Adnotacja @Override pełni bardziej funkcję informacyjną dla programisty żeby pamiętał o przesłanianiu metody
