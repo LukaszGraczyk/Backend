@@ -1,4 +1,4 @@
-package Sekcja_17_Klasy_i_dziedziczenie.Zadanie_dziedziczenie;
+package Sekcja_18_Klasy_i_dziedziczenie_zadanie.Zadanie_dziedziczenie;
 /*
 Zadanie
 W załączonych materiałach jest dołączona klasa Osoba. Rozpakuj, przenieś plik Osoba.java do swojego
