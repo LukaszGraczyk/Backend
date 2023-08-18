@@ -3,6 +3,7 @@ package Sekcja_19_Wyjatki;
 public class WyjatkiTryCatch2
 {
     static int[] tablica; // Wyjątek 1
+
     public static void main(String[] args)
     {
 
@@ -14,6 +15,7 @@ public class WyjatkiTryCatch2
             tablica[1] = 202;
             tablica[2] = 303;
         }
+
         catch(NullPointerException | ArrayIndexOutOfBoundsException wyjatek) // Można łączyć wyjątki
         {
             System.out.println("Nie określono rozmiaru tablicy lub tablica jest za mała");
