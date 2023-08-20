@@ -1,19 +1,20 @@
 package Sekcja_19_Wyjatki;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.io.FileNotFoundException;
 import java.io.FileInputStream;
+
 public class WyjatkiCheckUncheck
 {
     public static void menu(String[] args)
     {
         File file = new File("lokalizacja_pliku/plik.txt");
-        try // Wyjątek typu check exception
+        try
         {
             InputStream inputStream = new FileInputStream(file);
         }
-        catch(FileNotFoundException wyjatek)
+        catch(FileNotFoundException e)
         {
             System.out.println("Brak pliku");
         }
@@ -32,3 +33,5 @@ Przykłady uncheck exceptions:
 - NullPointerException
 - ArrayIndexOutOfBoundException
  */
+
+// Z nieznanego powodu nie można uruchomić programu
