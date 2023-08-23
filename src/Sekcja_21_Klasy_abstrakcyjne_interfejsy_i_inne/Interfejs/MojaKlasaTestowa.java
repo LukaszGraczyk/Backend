@@ -1,6 +1,6 @@
 package Sekcja_21_Klasy_abstrakcyjne_interfejsy_i_inne.Interfejs;
 
-public class MojaKlasaTestowa implements PrzykladowyInterface
+public class MojaKlasaTestowa implements PrzykladowyInterface // Po przecinku można dziedziczyć po wielu interface'ach
 {
 
     @Override
