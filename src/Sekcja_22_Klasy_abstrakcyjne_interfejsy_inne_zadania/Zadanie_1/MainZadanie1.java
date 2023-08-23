@@ -6,7 +6,7 @@ Zadanie 1:
 - stwórz nową klasę o nazwie “GwiazdaSmierci”, która będzie dziedziczyć po klasie “StacjaKosmiczna”. Zaimplementuj metodę “atakujLaserem”, która wyświetli na ekranie “piu piu"
 - przetestuj w main
  */
-public class Main
+public class MainZadanie1
 {
 public static void main(String[] args)
     {
