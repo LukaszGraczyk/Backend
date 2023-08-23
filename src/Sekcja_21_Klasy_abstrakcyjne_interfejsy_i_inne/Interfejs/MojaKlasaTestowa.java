@@ -11,6 +11,6 @@ public class MojaKlasaTestowa implements PrzykladowyInterface // Po przecinku mo
     @Override
     public int metodaZParametremWInterfejsie(String z) {
         System.out.println("Wpypisz parametr: " + z);
-        return 0;
+        return 1;
     }
 }
