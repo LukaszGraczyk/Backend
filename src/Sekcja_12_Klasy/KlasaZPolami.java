@@ -2,7 +2,7 @@ package Sekcja_12_Klasy;
 
 public class KlasaZPolami
 {
-    int liczbaCalkowita; // I
+    static int liczbaCalkowita; // I
 
     void zwrocwartoscpola() // II
     {
