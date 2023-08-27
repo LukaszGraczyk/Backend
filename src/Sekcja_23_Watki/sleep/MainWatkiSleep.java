@@ -1,4 +1,4 @@
-package Sekcja_23_Watki.Sleep;
+package Sekcja_23_Watki.sleep;
 
 public class MainWatkiSleep
 {
