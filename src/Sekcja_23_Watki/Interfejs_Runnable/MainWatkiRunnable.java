@@ -5,8 +5,8 @@ public class MainWatkiRunnable
     public static void main(String[] args)
     {
         // Wątki stosujące interfejs Runnable poprzez implementację w klasach
-        Thread watek1 = new Thread(new MojWatek());
-        Thread watek2 = new Thread(new MojWatek2());
+        Thread watek1 = new Thread(new Watek());
+        Thread watek2 = new Thread(new Watek2());
 
         watek1.start();
         watek2.start();

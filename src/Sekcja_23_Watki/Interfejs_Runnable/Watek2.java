@@ -1,6 +1,6 @@
 package Sekcja_23_Watki.Interfejs_Runnable;
 
-public class MojWatek2 implements Runnable
+public class Watek2 implements Runnable
 {
     @Override
     public void run()
