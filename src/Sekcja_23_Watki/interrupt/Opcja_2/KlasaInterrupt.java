@@ -1,6 +1,6 @@
-package Sekcja_23_Watki.interrupt;
+package Sekcja_23_Watki.interrupt.Opcja_2;
 
-public class KlasaInterrupt2 implements Runnable
+public class KlasaInterrupt implements Runnable
 {
     @Override
     public void run()
@@ -9,6 +9,6 @@ public class KlasaInterrupt2 implements Runnable
         {
             System.out.println("Wątek działa");
         }
-        System.out.println("Koniec działąnia wątku");
+        System.out.println("Koniec działania wątku");
     }
 }

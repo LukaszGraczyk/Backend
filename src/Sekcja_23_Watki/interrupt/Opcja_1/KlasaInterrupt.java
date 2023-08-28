@@ -1,4 +1,4 @@
-package Sekcja_23_Watki.interrupt;
+package Sekcja_23_Watki.interrupt.Opcja_1;
 
 public class KlasaInterrupt implements Runnable
 {
