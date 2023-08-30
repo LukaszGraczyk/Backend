@@ -2,7 +2,7 @@ package Sekcja_25_wczytywanie_danych.Klasa_Scanner;
 
 import java.util.Scanner;
 
-public class MainWczytywanieDanych3
+public class WczytywanieDanych4
 {
     public static void main(String[] args)
     {
@@ -10,16 +10,10 @@ public class MainWczytywanieDanych3
 
         System.out.println("Wpisz coś z klawiatury: ");
 
-        while(true)
+        while(scanner.hasNextInt()) // hasNextInt() umożliwia zakończenie pętli gdy podamy nie int
         {
             int wczytywany = scanner.nextInt();
             System.out.println("Wczytany int: " + wczytywany);
-
-            if(wczytywany == 0)
-            {
-                System.out.println("Wprowadzanie int zakończone");
-                break;
-            }
         }
     }
 }

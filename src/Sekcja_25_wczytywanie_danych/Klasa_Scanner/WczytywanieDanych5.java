@@ -2,7 +2,7 @@ package Sekcja_25_wczytywanie_danych.Klasa_Scanner;
 
 import java.util.Scanner;
 
-public class MainWczytywanieDanych5
+public class WczytywanieDanych5
 {
     public static void main(String[] args)
     {
