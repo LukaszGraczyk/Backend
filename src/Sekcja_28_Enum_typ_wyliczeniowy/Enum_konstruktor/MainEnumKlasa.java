@@ -5,6 +5,7 @@ public class MainEnumKlasa
     public static void main(String[] args)
     {
         Pizza pizza1 = Pizza.XXL;
-        System.out.println("Zamówiłeś pizze: " + pizza1 + " " + pizza1.rozmiar + "cm");
+        System.out.println("Zamówiłeś pizze: " + pizza1 + " " + pizza1.pobierzRozmiar() + "cm");
+        System.out.println("Cena to: " + pizza1.pobierzCene());
     }
 }
