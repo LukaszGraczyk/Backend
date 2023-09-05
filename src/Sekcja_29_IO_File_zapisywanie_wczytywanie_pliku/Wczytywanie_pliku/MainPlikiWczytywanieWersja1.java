@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class MainPlikiWczytywanie
+public class MainPlikiWczytywanieWersja1
 {
     public static void main(String[] args)
     {
@@ -18,6 +18,7 @@ public class MainPlikiWczytywanie
                 String line = scanner.nextLine();
                 System.out.println(line);
             }
+            scanner.close();
         }
         catch (FileNotFoundException e)
         {
