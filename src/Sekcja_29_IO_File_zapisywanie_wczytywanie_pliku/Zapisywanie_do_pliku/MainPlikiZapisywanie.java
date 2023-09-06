@@ -9,9 +9,15 @@ public class MainPlikiZapisywanie
     public static void main(String[] args)
     {
         try {
-            String path = "moj_plik.txt";
-            FileWriter fileWriter = new FileWriter(path);
+            // true po przecinku daję możliwość dopisywania tekstu do pliku a nie nadpisywania go po kolejnych uruchomieniach
+            FileWriter fileWriter = new FileWriter(KlasaLokalizacjiZapisuPlikow.path, true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            bufferedWriter.write("Przykładowy ciąg znaków\n");
+            bufferedWriter.write("Kolejny przykładowy ciąg znaków\n"); // \n pozwala na rozpoczęcie wpisywania tekstu od nowej linii
+            bufferedWriter.newLine(); // Ta komenda też  pozwala na rozpoczęcie wpisywania tekstu od nowej linii
+
+
+            bufferedWriter.close();
         }
         catch (IOException e)
         {
