@@ -1,4 +1,4 @@
-package Sekcja_29_IO_File_zapisywanie_wczytywanie_pliku.Zapisywanie_do_pliku;
+package Sekcja_29_IO_File_zapisywanie_wczytywanie_pliku_lista.Zapisywanie_do_pliku;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

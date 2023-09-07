@@ -1,7 +1,6 @@
-package Sekcja_29_IO_File_zapisywanie_wczytywanie_pliku.Wczytywanie_pliku;
+package Sekcja_29_IO_File_zapisywanie_wczytywanie_pliku_lista.Wczytywanie_pliku;
 
 import java.io.*;
-import java.util.Scanner;
 
 public class MainPlikiWczytywanieWersja2
 {
