@@ -8,7 +8,7 @@ public class PlikiLista
     public static void main(String[] args)
     {
         /*
-        Klasy osłonowe i typy proste:
+        Zestawienie klas osłonowych i typów prostych:
         Boolean - boolean       Double - double     Integer - int
         Character - char        Short - short       Float - float
         Byte - byte             Long - long
