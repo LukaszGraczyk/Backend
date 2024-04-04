@@ -1,10 +1,12 @@
-W językoznawstwie prawo Heardana (zwane również prawem Heapa) jest prawem empirycznym, które opisuje liczbę odrębnych słów w dokumencie (lub zestawie dokumentów) jako funkcję długości dokumentu (tzw. relacja type-token). Można to sformułować jako:
+W językoznawstwie prawo Heardana (zwane również prawem Heapa) jest prawem empirycznym, które opisuje liczbę odrębnych słów w dokumencie
+(lub zestawie dokumentów) jako funkcję długości dokumentu (tzw. relacja type-token). Można to sformułować jako:
 
 					VR(n) = K*n^β.
 
 gdzie VR jest liczbą odrębnych słów w tekście instancji o rozmiarze n słów.
 
-K i β są tutaj pewnymi parametrami swobodnymi wyznaczonymi empirycznie. W przypadku korpusów z tekstem angielskim, zwykle K wynosi od 10 do 100, a β od 0,4 do 0,6.
+K i β są tutaj pewnymi parametrami swobodnymi wyznaczonymi empirycznie. W przypadku korpusów z tekstem angielskim, zwykle K wynosi od 10 do 100,
+a β od 0,4 do 0,6.
 
 Problem do rozwiazania:
 
@@ -24,7 +26,8 @@ pobrane ze stony: https://czasdzieci.pl/czytanki/dz,2-bajki_basnie,s,czytanki,za
 
 Napisać program w Javie, który po przekazaniu pliku tekstowego obliczy liczbę tokenów (wyrazów) i liczbę różnych tokenów (wyrazów).
 
-Uruchamiając teraz program dla dwóch pierwszych plików tekstowych z bajkami, np. _brzydkie_kaczatko.txt i _dziecie_elfow.txt obliczyć liczby VR(n1) i n1 dla pierwszego tekstu oraz VR(n2) i n2 dla drugiego.
+Uruchamiając teraz program dla dwóch pierwszych plików tekstowych z bajkami, np. _brzydkie_kaczatko.txt i _dziecie_elfow.txt obliczyć
+liczby VR(n1) i n1 dla pierwszego tekstu oraz VR(n2) i n2 dla drugiego.
 
 Następnie (wykorzystując, np. z serwisu https://www.wolframalpha.com/) rozwiązać układ równań
 

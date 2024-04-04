@@ -5,7 +5,7 @@ Przez cale zadanie pracujemy na pliku:
 
 Polecenie 1.
 ============
-============
+
 Odczytaj wszystkie wyrazy z pliku (ciagi znakow oddzielone od siebie spacja), oczysc je
 z niepotrzebnych znakow typu: , . : ; ? ! itp., ujednolic wielkosc liter (wszystkie male)
  oraz zapisz je do
@@ -45,7 +45,7 @@ Przyklad uzycia:
 
 Polecenie 2.
 ============
-============
+
 Wypisz wszystkie rozne elementy z listaWyrazow na ekran oraz policz ile ich jest.
 
 
@@ -82,7 +82,7 @@ Przyklad uzycia:
 
 Polecenie 3.
 ============
-============
+
 Policz ile razy kazdy wyraz wystapil w liscie listaWyrazow.
 
 Wskazowka:
@@ -145,7 +145,7 @@ Przyklad uzycia:
 
 Polecenie 4.
 ============
-============
+
 a) Wypisz 20 najbardziej popularnych wyrazow ze slownika.
 b) Wypisz 20 najbardziej popularnych wyrazow ze slownika, po wykluczeniu z niego
    wszystkich wyrazow z pliku stop_words.txt.
